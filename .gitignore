@@ -1,0 +1,8 @@
+auth-service/
+inventario-service/
+movimientos-service/
+bajas-service/
+reportes-service/
+.env
+.idea/
+target/
