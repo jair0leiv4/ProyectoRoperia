@@ -40,9 +40,7 @@
             "value": "application/json"
           }
         ],
-        "url": {
-          "raw": "{{authUrl}}/auth/login"
-        },
+        "url": "{{authUrl}}/auth/login",
         "auth": {
           "type": "noauth"
         },
@@ -68,9 +66,7 @@
       "request": {
         "method": "GET",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/publico/estado"
-        },
+        "url": "{{baseUrl}}/api/publico/estado",
         "auth": {
           "type": "noauth"
         }
@@ -98,9 +94,7 @@
             "value": "application/json"
           }
         ],
-        "url": {
-          "raw": "{{baseUrl}}/api/tipos-prenda"
-        },
+        "url": "{{baseUrl}}/api/tipos-prenda",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -133,9 +127,7 @@
       "request": {
         "method": "GET",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/tipos-prenda"
-        },
+        "url": "{{baseUrl}}/api/tipos-prenda",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -170,9 +162,7 @@
             "value": "application/json"
           }
         ],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas"
-        },
+        "url": "{{baseUrl}}/api/prendas",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -205,9 +195,7 @@
       "request": {
         "method": "GET",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas"
-        },
+        "url": "{{baseUrl}}/api/prendas",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -236,9 +224,7 @@
       "request": {
         "method": "GET",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas/{{prendaId}}"
-        },
+        "url": "{{baseUrl}}/api/prendas/{{prendaId}}",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -272,9 +258,7 @@
             "value": "application/json"
           }
         ],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas/{{prendaId}}"
-        },
+        "url": "{{baseUrl}}/api/prendas/{{prendaId}}",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -307,9 +291,7 @@
       "request": {
         "method": "GET",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas/bajo-stock"
-        },
+        "url": "{{baseUrl}}/api/prendas/bajo-stock",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -343,9 +325,7 @@
             "value": "application/json"
           }
         ],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas"
-        },
+        "url": "{{baseUrl}}/api/prendas",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -383,9 +363,7 @@
             "value": "application/json"
           }
         ],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas"
-        },
+        "url": "{{baseUrl}}/api/prendas",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -418,9 +396,7 @@
       "request": {
         "method": "GET",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas/999999"
-        },
+        "url": "{{baseUrl}}/api/prendas/999999",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -449,9 +425,7 @@
       "request": {
         "method": "GET",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas"
-        },
+        "url": "{{baseUrl}}/api/prendas",
         "auth": {
           "type": "noauth"
         }
@@ -473,9 +447,7 @@
       "request": {
         "method": "DELETE",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/tipos-prenda/{{tipoId}}"
-        },
+        "url": "{{baseUrl}}/api/tipos-prenda/{{tipoId}}",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -504,9 +476,7 @@
       "request": {
         "method": "DELETE",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/prendas/{{prendaId}}"
-        },
+        "url": "{{baseUrl}}/api/prendas/{{prendaId}}",
         "auth": {
           "type": "bearer",
           "bearer": [
@@ -535,9 +505,7 @@
       "request": {
         "method": "DELETE",
         "header": [],
-        "url": {
-          "raw": "{{baseUrl}}/api/tipos-prenda/{{tipoId}}"
-        },
+        "url": "{{baseUrl}}/api/tipos-prenda/{{tipoId}}",
         "auth": {
           "type": "bearer",
           "bearer": [
